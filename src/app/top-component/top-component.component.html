@@ -1,0 +1,11 @@
+<h1>top-component works!</h1>
+<p>The value that we have is {{randomNumber}}</p>
+<app-simple-component (increase)="add()" (response)="receivedMessage($event)"></app-simple-component>
+<button (click)="decrease()"> Decrease </button>
+
+
+<!-- <app-simple-component [message]="messageInput"></app-simple-component> -->
+
+<h5>The message received is : {{messageOutput}}</h5>
+<h3>Console message</h3>
+<button type="button" (click)="saludar()">Saludando ...</button>

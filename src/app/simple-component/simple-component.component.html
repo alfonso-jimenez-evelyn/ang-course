@@ -1,0 +1,10 @@
+<p>simple-component works!</p>
+<p> This message is from the top {{message}}</p>
+
+<div>
+    <label for="input"></label>
+    <input type="text" id="input" [(ngModel)]="messageOutput">
+    <button type="button" (click)="sendMessage()">Enviando Mensaje</button>
+
+    <button (click)="incrementar()"> Add </button>
+</div>
